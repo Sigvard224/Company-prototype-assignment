@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evenemangsregistrering</title>
+    <link rel="stylesheet" href="Företag_prototyp-css.css">
+</head>
+<body>
+
+    <!-- Navigationsmeny -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Hem</a></li>
+                <li><a href="#">Evenemang</a></li>
+                <li><a href="#">Om oss</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero-sektion -->
+    <section>
+        <h1>Välkommen till våra evenemang!</h1>
+        <p>Upptäck och registrera dig för spännande evenemang!</p>
+    </section>
+
+    <!-- Evenemangslista -->
+    <section>
+        <h2>Kommande Evenemang</h2>
+        <article>
+            <h3>Konferens 2024</h3>
+            <p>Datum: 15 Oktober 2024</p>
+            <p>Plats: Stockholm, Sverige</p>
+            <a href="#">Läs mer</a> | <a href="#">Anmäl dig</a>
+        </article>
+
+        <article>
+            <h3>Företagsmässa</h3>
+            <p>Datum: 25 November 2024</p>
+            <p>Plats: Göteborg, Sverige</p>
+            <a href="#">Läs mer</a> | <a href="#">Anmäl dig</a>
+        </article>
+    </section>
+
+    <!-- Evenemangsinformation och registrering -->
+    <section>
+        <h2>Anmäl dig till evenemanget</h2>
+        <form>
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="phone">Telefon:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <label for="diet">Kostavvikelser:</label>
+            <input type="text" id="diet" name="diet"><br><br>
+
+            <label for="attendees">Antal deltagare:</label>
+            <input type="number" id="attendees" name="attendees" min="1"><br><br>
+
+            <button type="submit">Anmäl dig</button>
+        </form>
+    </section>
+
+</body>
+</html>
